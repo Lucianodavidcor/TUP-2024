@@ -2,7 +2,7 @@ package Java.Clase_11;
 
 import java.util.Scanner;
 
-public class Ejercico1 {
+public class Ejercicio1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double nota1,nota2,nota3,promedio;
