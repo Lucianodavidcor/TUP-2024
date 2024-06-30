@@ -19,3 +19,26 @@ else {
 }
 
 console.log("El valor corresponde a la estacion: " + estacion); //El Valor corresponde a la: Primavera
+
+//Ejercicio 2: 
+
+let horaDia = 12;
+let mensajes;
+
+if (horaDia >= 6 && horaDia <= 11) {
+    mensajes = "Buenas Mananas";
+}
+else if (horaDia >= 12 && horaDia <= 16) {
+    mensajes = "Buenos Dias";
+}
+else if (horaDia >= 17 && horaDia <= 19) {
+    mensajes = "Buenos Tardes";
+}
+else if (horaDia >= 20 && horaDia <= 23) {
+    mensajes = "Buenos Noches";
+}
+else {
+    mensajes = "Valor Incorrecto";
+}
+
+console.log(mensajes); //Buenos Dias
