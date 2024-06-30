@@ -1,10 +1,11 @@
-package Java;
+package Java.Clase_9;
 
 import java.util.Scanner;
 
-public class Clase_9_Ejercicio_5 {
+public class Ejercicio5 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
+
         float nota1, nota2, nota3, suma;
 
         // Guardamos las tres notas
